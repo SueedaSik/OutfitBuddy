@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+    background: #f5f3ff;
+    color: #2a2a2a;
+    margin: 0;
+    padding: 0 1rem 3rem;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+
+header h1 {
+    margin: 0;
+    color: #6d28d9;
+}
+
+header p {
+    margin: 0.25rem 0 0;
+    color: #6b7280;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    margin-top: 0;
+    color: #4c1d95;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 0.5rem 0.6rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.form-actions {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+button {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    background: #7c3aed;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6d28d9;
+}
+
+button.secondary {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+button.secondary:hover {
+    background: #d1d5db;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    text-align: left;
+    padding: 0.6rem 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    color: #6b7280;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+td.actions button {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.85rem;
+    margin-right: 0.4rem;
+}
+
+td.actions .delete-btn {
+    background: #dc2626;
+}
+
+td.actions .delete-btn:hover {
+    background: #b91c1c;
+}
+
+#empty-message {
+    color: #6b7280;
+    font-style: italic;
+}
