@@ -18,7 +18,7 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 ## Schritt 2: Backend Spring Boot REST-API
 
-Als Nächstes habe ich das Backend gebaut – also den Teil, der im Hintergrund läuft und die Daten verwaltet:
+Als Nächstes habe ich das Backend gebaut, also den Teil der im Hintergrund läuft:
 
 - Ein Datenmodell `Outfit.java` angelegt mit den Feldern `id`, `name`, `category` und `lastWorn`. Die `id` wird automatisch vergeben.
 - Ein Repository `OutfitRepository.java` erstellt, das alle Datenbankoperationen übernimmt. Ich musste dafür kaum etwas schreiben, weil Spring Data JPA vieles schon mitbringt.
@@ -34,15 +34,15 @@ Als Nächstes habe ich das Backend gebaut – also den Teil, der im Hintergrund 
 
 ## Schritt 3: Frontend als separater Java-Prozess für verteilte Architektur
 
-Bisher lief alles in einem Prozess. Ich wollte aber ausprobieren, wie es sich anfühlt, wenn Backend und Frontend getrennt sind – genau wie bei großen echten Anwendungen:
+Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt wenn Backend und Frontend getrennt sind, so wie bei echten Anwendungen:
 
 - Statt einer monolithischen Anwendung gibt es jetzt zwei eigenständige Java-Prozesse:
-  - **Prozess 1 – Backend:** Die Spring Boot REST API läuft auf Port 8080 und kümmert sich um alle Datenbankoperationen.
-  - **Prozess 2 – Frontend-Server:** Ein eigener kleiner Webserver liefert die HTML-Seite, das CSS und das JavaScript auf Port 3000 aus.
+  - **Prozess 1: Backend:** Die Spring Boot REST API läuft auf Port 8080 und kümmert sich um alle Datenbankoperationen.
+  - **Prozess 2: Frontend-Server:** Ein eigener kleiner Webserver liefert die HTML-Seite, das CSS und das JavaScript auf Port 3000 aus.
 - Den `FrontendServer.java` geschrieben. Er nutzt nur Standard-JDK-Bibliotheken (`com.sun.net.httpserver.HttpServer`), braucht also keine extra Abhängigkeiten.
 - In `app.js` die API-URL von einem relativen Pfad auf `http://localhost:8080/api/outfits` geändert, damit das Frontend das Backend auch von einem anderen Port aus erreicht.
 - Im `OutfitController` CORS aktiviert, damit der Browser Anfragen vom Frontend-Port 3000 zum Backend-Port 8080 zulässt.
-- Das Ergebnis: Zwei unabhängige Prozesse, die über HTTP miteinander kommunizieren. Genau so funktioniert es später auch in der Praxis, wenn Frontend und Backend sogar auf verschiedenen Servern laufen.
+- Das Ergebnis: Zwei Prozesse die über HTTP miteinander reden. In der Praxis laufen sie sogar auf verschiedenen Servern.
 
 ## Schritt 4: Design angepasst mit Kilo Code
 
@@ -65,5 +65,3 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 - Die Commit-Message so geschrieben, dass auch andere verstehen, was geändert wurde
 - Auf den `main`-Branch von `https://github.com/SueedaSik/OutfitBuddy.git` gepusht
 - Commit-Hash: `63178bc`
-
-Das Projekt ist jetzt öffentlich auf GitHub einsehbar und kann von anderen weiterentwickelt werden.
