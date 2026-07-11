@@ -1,6 +1,6 @@
 # OutfitBuddy
 
-OutfitBuddy ist eine einfache Web-App zum Verwalten von Outfits. Du kannst Kleidungsstücke benennen, kategorisieren und festhalten, wann du sie zuletzt getragen hast. Die App wurde mit Java und Spring Boot gebaut und folgt einer echten verteilten Architektur mit zwei separaten Java-Prozessen.
+OutfitBuddy ist eine einfache Web-App zum Verwalten von Outfits. Man kann Kleidungsstücke benennen, kategorisieren und festhalten, wann du sie zuletzt getragen hast. Die App wurde mit Java und Spring Boot gebaut und folgt einer echten verteilten Architektur mit zwei separaten Java-Prozessen.
 
 ## Was kann die App?
 
@@ -11,7 +11,7 @@ OutfitBuddy ist eine einfache Web-App zum Verwalten von Outfits. Du kannst Kleid
 
 ## Wie funktioniert die Architektur?
 
-OutfitBuddy besteht aus zwei unabhängigen Java-Prozessen, die über HTTP miteinander kommunizieren – genau wie bei großen modernen Webanwendungen.
+OutfitBuddy besteht aus zwei Java-Prozessen, die über HTTP miteinander reden.
 
 ### Prozess 1: Backend (Port 8080)
 
@@ -93,8 +93,7 @@ Gehe auf **http://localhost:3000** – die App ist bereit.
 - `lastWorn` – Datum, an dem das Outfit zuletzt getragen wurde
 
 ## Entstehung und Tools
-
-Das Projekt wurde Schritt für Schritt entwickelt und auf [GitHub](https://github.com/SueedaSik/OutfitBuddy) veröffentlicht. Die genaue Entstehungsgeschichte steht in der Datei [STEPS.md](STEPS.md).
+Die genaue Entstehungsgeschichte steht in der Datei [STEPS.md](STEPS.md).
 
 Für die Entwicklung wurden verwendet:
 
