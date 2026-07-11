@@ -1,4 +1,4 @@
-const API_URL = '/api/outfits';
+const API_URL = 'http://localhost:8080/api/outfits';
 
 const form = document.getElementById('outfit-form');
 const idField = document.getElementById('outfit-id');
