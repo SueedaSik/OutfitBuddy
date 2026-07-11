@@ -29,7 +29,7 @@ Als Nächstes habe ich das Backend gebaut, also den Teil der im Hintergrund läu
   - `PUT /api/outfits/{id}` – ein Outfit bearbeiten
   - `DELETE /api/outfits/{id}` – ein Outfit löschen
 - Eine kleine Fehlerbehandlung hinzugefügt, damit klar wird, wenn ein Outfit nicht gefunden wird.
-- Als Datenbank die H2 In-Memory-Datenbank gewählt – sie ist einfach zu nutzen und braucht keine extra Installation.
+- Als Datenbank habe ich H2 gewählt, weil sie einfach zu nutzen ist.
 - In `data.sql` drei Beispiel-Outfits hinterlegt, damit direkt etwas zu sehen ist, wenn die App startet.
 
 ## Schritt 3: Frontend als separater Java-Prozess für verteilte Architektur
