@@ -56,6 +56,7 @@ Als Nächstes habe ich das Backend gebaut, also den Teil der im Hintergrund läu
 
 <img width="2900" height="288" alt="Bild 09 07 26 um 19 26" src="https://github.com/user-attachments/assets/d3fdc69f-e104-4e8e-ac23-9ef712fd67d6" />
 
+
 <br>
 
 <img width="1722" height="674" alt="Bild 11 07 26 um 17 29" src="https://github.com/user-attachments/assets/62819786-57b5-40fc-833e-217e4f28e7c7" />
