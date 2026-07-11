@@ -1,12 +1,90 @@
 # OutfitBuddy
 
-REST-API zur Verwaltung von Outfits, gebaut mit Spring Boot.
+OutfitBuddy ist eine einfache Web-App zum Verwalten von Outfits. Du kannst Kleidungsstücke benennen, kategorisieren und festhalten, wann du sie zuletzt getragen hast. Die App wurde mit Java und Spring Boot gebaut und folgt einer echten verteilten Architektur mit zwei separaten Java-Prozessen.
 
-## Module
+## Was kann die App?
 
-- **Frontend**: statisches HTML/CSS/JS unter `src/main/resources/static`
-- **Backend**: Spring Boot Controller & Service unter `src/main/java/com/outfitbuddy`
-- **Datenbank**: H2 In-Memory-Datenbank
+- **Outfits anlegen:** Name, Kategorie und Datum speichern
+- **Übersicht behalten:** Alle Outfits in einer Tabelle anzeigen
+- **Bearbeiten und löschen:** Einträge direkt in der Oberfläche ändern oder entfernen
+- **Daten bleiben im Speicher:** Die H2-Datenbank speichert alles während der Laufzeit
+
+## Wie funktioniert die Architektur?
+
+OutfitBuddy besteht aus zwei unabhängigen Java-Prozessen, die über HTTP miteinander kommunizieren – genau wie bei großen modernen Webanwendungen.
+
+### Prozess 1: Backend (Port 8080)
+
+Das Backend ist eine Spring Boot REST-API. Es kümmert sich um:
+
+- Die Datenbank (H2 In-Memory)
+- Die Geschäftslogik (Service-Schicht)
+- Die REST-Endpunkte, über die das Frontend Daten abrufen und ändern kann
+
+### Prozess 2: Frontend-Server (Port 3000)
+
+Der Frontend-Server ist ein eigener kleiner Java-HTTP-Server. Er tut nichts anderes, als die statischen Dateien auszuliefern:
+
+- `index.html` – der Aufbau der Seite
+- `css/style.css` – das Aussehen
+- `js/app.js` – die Logik im Browser
+
+Das JavaScript im Browser spricht dann über HTTP mit dem Backend auf Port 8080, um Daten zu laden, anzulegen, zu ändern oder zu löschen.
+
+### Warum zwei Prozesse?
+
+So lässt sich Frontend und Backend unabhängig voneinander entwickeln und austauschen. In der Praxis laufen sie sogar auf verschiedenen Servern – bei uns lokal einfach auf zwei verschiedenen Ports.
+
+## Wie starte ich die App?
+
+Du brauchst Java 17 und Maven. Mit dem Maven-Wrapper (`mvnw`) brauchst du nicht mal Maven extra zu installieren.
+
+### 1. Projekt bauen
+
+```bash
+./mvnw clean package -DskipTests
+```
+
+### 2. Backend starten
+
+```bash
+java -jar target/outfitbuddy-1.0.0.jar
+```
+
+Das Backend läuft jetzt unter **http://localhost:8080/api/outfits**
+
+### 3. Frontend-Server starten
+
+In einem zweiten Terminal:
+
+```bash
+java -cp target/classes com.outfitbuddy.FrontendServer
+```
+
+Das Frontend ist jetzt unter **http://localhost:3000** erreichbar.
+
+### 4. Browser öffnen
+
+Gehe auf **http://localhost:3000** – die App ist bereit.
+
+## Nützliche Adressen
+
+| Dienst | Adresse |
+|--------|---------|
+| Frontend | http://localhost:3000 |
+| REST API | http://localhost:8080/api/outfits |
+| H2-Konsole | http://localhost:8080/h2-console |
+| Datenbank-Zugang | JDBC URL: `jdbc:h2:mem:outfitbuddy`, User: `sa`, kein Passwort |
+
+## API-Endpunkte
+
+| Methode | Pfad | Beschreibung |
+|---------|------|--------------|
+| GET | /api/outfits | Alle Outfits abrufen |
+| GET | /api/outfits/{id} | Einzelnes Outfit abrufen |
+| POST | /api/outfits | Neues Outfit anlegen |
+| PUT | /api/outfits/{id} | Outfit aktualisieren |
+| DELETE | /api/outfits/{id} | Outfit löschen |
 
 ## Outfit-Felder
 
@@ -14,24 +92,11 @@ REST-API zur Verwaltung von Outfits, gebaut mit Spring Boot.
 - `category` – Kategorie (z.B. Casual, Business, Sport)
 - `lastWorn` – Datum, an dem das Outfit zuletzt getragen wurde
 
-## Starten
+## Entstehung und Tools
 
-```bash
-./mvnw spring-boot:run
-```
+Das Projekt wurde Schritt für Schritt entwickelt und auf [GitHub](https://github.com/SueedaSik/OutfitBuddy) veröffentlicht. Die genaue Entstehungsgeschichte steht in der Datei [STEPS.md](STEPS.md).
 
-Die App läuft dann unter http://localhost:8080
+Für die Entwicklung wurden verwendet:
 
-- Frontend: http://localhost:8080
-- REST-API: http://localhost:8080/api/outfits
-- H2-Konsole: http://localhost:8080/h2-console (JDBC URL: `jdbc:h2:mem:outfitbuddy`, User: `sa`, kein Passwort)
-
-## API-Endpunkte
-
-| Methode | Pfad                | Beschreibung             |
-|---------|---------------------|---------------------------|
-| GET     | /api/outfits         | Alle Outfits abrufen      |
-| GET     | /api/outfits/{id}    | Ein Outfit abrufen        |
-| POST    | /api/outfits         | Neues Outfit anlegen      |
-| PUT     | /api/outfits/{id}    | Outfit aktualisieren      |
-| DELETE  | /api/outfits/{id}    | Outfit löschen            |
+- **Claude Code CLI** – für die initiale Projektstruktur und das Backend
+- **Kilo Code** (VS Code Plugin) – für die spätere Architektur-Umstellung und das Design
