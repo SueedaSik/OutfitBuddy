@@ -4,6 +4,8 @@ Hier zeige ich wie das Projekt entstanden ist, von der ersten Datei bis zur fert
 
 <br>
 
+##
+
 ## Schritt 1: Projektstruktur mit Claude Code erstellt
 
 Am Anfang stand die Frage: Wie baue ich das Projekt am besten auf? Ich habe mit Claude Code ein sauberes Grundgerüst erstellt:
@@ -26,7 +28,6 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 <br>
 <br>
-<br>
 
 ##
 
@@ -36,8 +37,8 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 <br>
 <br>
-<br>
 
+##
 
 
 **Claude Code gestartet - eingeloggt als suedasik05@gmail.com:**
@@ -46,8 +47,8 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 <br>
 <br>
-<br>
 
+##
 
 
 **Maven und Java werden geprüft:**
@@ -56,8 +57,8 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 <br>
 <br>
-<br>
 
+##
 
 
 **Kilo Code erklärt die Projektstruktur (Backend):**
@@ -66,8 +67,8 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 <br>
 <br>
-<br>
 
+##
 
 
 **Kilo Code erklärt die Projektstruktur (Fronted + Konfiguration):**
@@ -76,6 +77,7 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 <br>
 <br>
+##
 
 ## Schritt 2: Backend Spring Boot REST-API
 
@@ -101,8 +103,8 @@ Als Nächstes habe ich das Backend gebaut, also den Teil der im Hintergrund läu
 
 <br>
 <br>
-<br>
 
+##
 
 
 **Kilo Code erklärt den OutfitController (Methoden Teil 1):**
@@ -111,8 +113,8 @@ Als Nächstes habe ich das Backend gebaut, also den Teil der im Hintergrund läu
 
 <br>
 <br>
-<br>
 
+##
 
 
 **Kilo Code erklärt den OutfitController (Methoden Teil 2):**
@@ -120,8 +122,8 @@ Als Nächstes habe ich das Backend gebaut, also den Teil der im Hintergrund läu
 <img width="1722" height="750" alt="Bild 11 07 26 um 17 30" src="https://github.com/user-attachments/assets/20743855-79c6-4ad3-8ce2-c6e17eb8cfd8" />
 
 <br>
-<br>
 
+##
 
 ## Schritt 3: Frontend als separater Java-Prozess für verteilte Architektur
 
@@ -143,8 +145,8 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 <br>
-<br>
 
+##
 
 
 **REST-API funktioniert - alle Outfits werden abgerufen:**
@@ -153,8 +155,8 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 <br>
-<br>
 
+##
 
 
 **Alle CRUD-Operationen funktionieren korrekt:**
@@ -163,8 +165,8 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 <br>
-<br>
 
+##
 
 
 **Claude Code Zusammenfassung des fertigen Projekts:**
@@ -173,8 +175,8 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 <br>
-<br>
 
+##
 
 
 **Kilo Code baut die verteilte Architektur um (Teil 1):**
@@ -183,8 +185,8 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 <br>
-<br>
 
+##
 
 
 **Kilo Code baut die verteilte Architektur um (Teil 2 - Startbefehle):**
@@ -193,7 +195,8 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 <br>
-<br>
+
+##
 
 
 
@@ -203,8 +206,8 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 <br>
-<br>
 
+##
 
 
 **Finale Version der App (salbeigrünes Design):**
@@ -213,7 +216,8 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 <br>
-<br>
+
+##
 
 
 
@@ -238,8 +242,8 @@ Die App sollte nicht nur funktionieren, sondern auch gut aussehen. Ich habe mich
 
 <br>
 <br>
-<br>
 
+##
 
 
 
@@ -249,9 +253,8 @@ Die App sollte nicht nur funktionieren, sondern auch gut aussehen. Ich habe mich
 
 <br>
 <br>
-<br>
 
-
+##
 
 
 **Finale App mit Salbeigrün-Design:**
@@ -260,8 +263,8 @@ Die App sollte nicht nur funktionieren, sondern auch gut aussehen. Ich habe mich
 
 <br>
 <br>
-<br>
 
+##
 
 
 
@@ -276,7 +279,8 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 
 <br>
 <br>
-<br>
+
+##
 
 **Git Repository wird initialisiert:**
 
@@ -284,7 +288,8 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 
 <br>
 <br>
-<br>
+
+##
 
 
 
@@ -295,7 +300,8 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 
 <br>
 <br>
-<br>
+
+##
 
 
 
@@ -306,8 +312,8 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 
 <br>
 <br>
-<br>
 
+##
 
 
 **GitHub Repository erstellt und Code gepusht:**
@@ -316,6 +322,7 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 
 <br>
 
+##
 
 
 
