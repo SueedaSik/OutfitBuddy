@@ -18,7 +18,7 @@ OutfitBuddy ist eine einfache Web-App zum Verwalten von Outfits. Man kann Kleidu
 
 ## Wie funktioniert die Architektur?
 
-OutfitBuddy besteht aus zwei Java-Prozessen, die über HTTP miteinander reden.
+OutfitBuddy besteht aus zwei unabhängigen Java-Prozessen mit klar getrennten Aufgaben. Beide werden separat vom Browser als Client angesprochen, sie sprechen nicht direkt miteinander.
 
 <br>
 
