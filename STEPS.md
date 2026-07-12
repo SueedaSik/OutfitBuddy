@@ -20,7 +20,7 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 <br>
 
-# **Claude Code wird installiert:**
+## **Claude Code wird installiert:**
 
 <img width="1348" height="434" alt="Bild 09 07 26 um 19 04" src="https://github.com/user-attachments/assets/2724d25e-c684-4569-8b12-784516dde3ca" />
 
