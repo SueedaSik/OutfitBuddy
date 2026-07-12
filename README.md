@@ -101,6 +101,34 @@ Das Frontend ist jetzt unter **http://localhost:3000** erreichbar.
 - `category` – Kategorie (z.B. Casual, Business, Sport)
 - `lastWorn` – Datum, an dem das Outfit zuletzt getragen wurde
 
+## Roadmap
+
+Was ich mir als nächste Schritte vorstellen könnte:
+
+- Foto-Upload für Outfits
+- Persistente Datenbank damit die Daten auch nach einem Neustart noch da sind
+- Benutzer-Login damit mehrere Personen die App nutzen können
+
+## Techstack
+
+**| Bereich | Technologie |**
+  |---------|-------------|
+  | Sprache | Java 17 |
+  | Backend | Spring Boot 3.3.2|
+  | Datenbank | H2 In-Memory |
+  | Frontend | HTML, CSS, JavaScript |
+  | Build-Tool | Maven |
+  | KI-Tools | Claude Code CLI, Kilo Code|
+
+## Umsetzung und Validierung
+
+| Aufgabe | Umsetzung | Validierung |
+|---------|-----------|-------------|
+| REST-API | Spring Boot Controller | Maven Tests erfolgreich |
+| Verteilte Architektur | Zwei separate Java-Prozesse | Im Browser getestet |
+| Frontend | HTML/CSS/JS + Java HTTP-Server | Auf localhost:3000 getestet |
+
+
 ## Entstehung und Tools
 Die genaue Entstehungsgeschichte steht in der Datei [STEPS.md](STEPS.md).
 
