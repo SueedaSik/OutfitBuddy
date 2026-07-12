@@ -30,7 +30,7 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 ##
 
-# **Claude Code erstellt alle Projektdateien:**
+**Claude Code erstellt alle Projektdateien:**
 
 <img width="2972" height="572" alt="Bild 09 07 26 um 19 14" src="https://github.com/user-attachments/assets/6d5b8b9a-21af-4507-bbc7-c75ab328d8ea" />
 
