@@ -124,6 +124,9 @@ Als Nächstes habe ich das Backend gebaut, also den Teil der im Hintergrund läu
 <img width="1722" height="750" alt="Bild 11 07 26 um 17 30" src="https://github.com/user-attachments/assets/20743855-79c6-4ad3-8ce2-c6e17eb8cfd8" />
 
 <br>
+<br>
+<br>
+<br>
 
 
 
