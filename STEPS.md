@@ -140,7 +140,7 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 - Den `FrontendServer.java` geschrieben. Er nutzt nur Standard-JDK-Bibliotheken (`com.sun.net.httpserver.HttpServer`), braucht also keine extra Abhängigkeiten.
 - In `app.js` die API-URL von einem relativen Pfad auf `http://localhost:8080/api/outfits` geändert, damit das Frontend das Backend auch von einem anderen Port aus erreicht.
 - Im `OutfitController` CORS aktiviert, damit der Browser Anfragen vom Frontend-Port 3000 zum Backend-Port 8080 zulässt.
-- Das Ergebnis: Zwei Prozesse die über HTTP miteinander reden. In der Praxis laufen sie sogar auf verschiedenen Servern.
+- Das Ergebnis: Zwei unabhängige Prozesse mit getrennten Aufgaben. Der Browser lädt die Seite vom Frontend-Server auf Port 3000 und ruft danach eigenständig die API auf dem Backend-Server auf Port 8080 auf. In der Praxis könnten diese sogar auf verschiedenen Servern laufen.
 
 <br>
 
