@@ -41,6 +41,12 @@ So lässt sich Frontend und Backend unabhängig voneinander entwickeln und austa
 
 Man braucht Java 17 und Maven. Mit dem Maven-Wrapper (mvnw) braucht man nicht mal Maven extra zu installieren.
 
+### 0. In den Projektordner navigieren
+
+```bash
+cd /Users/sueda/OutfitBuddy
+```
+
 ### 1. Projekt bauen
 
 ```bash
@@ -60,6 +66,7 @@ Das Backend läuft jetzt unter **http://localhost:8080/api/outfits**
 In einem zweiten Terminal:
 
 ```bash
+cd /Users/sueda/OutfitBuddy
 java -cp target/classes com.outfitbuddy.FrontendServer
 ```
 
