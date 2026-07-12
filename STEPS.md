@@ -332,4 +332,5 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 
 **Kilo Code erstellt und pusht die STEPS.md:**
 
-<img width="1654" height="100" alt="Bild 11 07 26 um 18 18" src="https://github.com/user-attachments/assets/b957c059-e13b-48d9-beb2-a2201c1b874a" />
+<img width="979" height="58" alt="Bild 11 07 26 um 18 18" src="https://github.com/user-attachments/assets/f632cd55-0676-417f-9fe4-4f7f62f5dceb" />
+
