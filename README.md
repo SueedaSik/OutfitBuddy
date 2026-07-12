@@ -111,14 +111,14 @@ Was ich mir als nächste Schritte vorstellen könnte:
 
 ## Techstack
 
-**| Bereich | Technologie |**
-  |---------|-------------|
-  | Sprache | Java 17 |
-  | Backend | Spring Boot 3.3.2|
-  | Datenbank | H2 In-Memory |
-  | Frontend | HTML, CSS, JavaScript |
-  | Build-Tool | Maven |
-  | KI-Tools | Claude Code CLI, Kilo Code|
+| Bereich | Technologie |
+|---------|-------------|
+| Sprache | Java 17 |
+| Backend | Spring Boot 3.3.2|
+| Datenbank | H2 In-Memory |
+| Frontend | HTML, CSS, JavaScript |
+| Build-Tool | Maven |
+| KI-Tools | Claude Code CLI, Kilo Code|
 
 ## Umsetzung und Validierung
 
