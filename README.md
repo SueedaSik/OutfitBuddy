@@ -1,6 +1,6 @@
 # OutfitBuddy
 
-OutfitBuddy ist eine einfache Web-App zum Verwalten von Outfits. Man kann Kleidungsstücke benennen, kategorisieren und festhalten, wann du sie zuletzt getragen hast. Die App wurde mit Java und Spring Boot gebaut und folgt einer echten verteilten Architektur mit zwei separaten Java-Prozessen.
+OutfitBuddy ist eine einfache Web-App zum Verwalten von Outfits. Man kann Kleidungsstücke benennen, kategorisieren und festhalten, wann man sie zuletzt getragen hast. Die App wurde mit Java und Spring Boot gebaut und folgt einer echten verteilten Architektur mit zwei separaten Java-Prozessen.
 
 ## Was kann die App?
 
@@ -33,11 +33,11 @@ Das JavaScript im Browser spricht dann über HTTP mit dem Backend auf Port 8080,
 
 ### Warum zwei Prozesse?
 
-So lässt sich Frontend und Backend unabhängig voneinander entwickeln und austauschen. In der Praxis laufen sie sogar auf verschiedenen Servern – bei uns lokal einfach auf zwei verschiedenen Ports.
+So lässt sich Frontend und Backend unabhängig voneinander entwickeln und austauschen. In der Praxis laufen sie sogar auf verschiedenen Servern, lokal läuft es einfach auf zwei verschiedenen Ports.
 
 ## Wie starte ich die App?
 
-Du brauchst Java 17 und Maven. Mit dem Maven-Wrapper (`mvnw`) brauchst du nicht mal Maven extra zu installieren.
+Man braucht Java 17 und Maven. Mit dem Maven-Wrapper (mvnw) braucht man nicht mal Maven extra zu installieren.
 
 ### 1. Projekt bauen
 
@@ -65,7 +65,7 @@ Das Frontend ist jetzt unter **http://localhost:3000** erreichbar.
 
 ### 4. Browser öffnen
 
-Gehe auf **http://localhost:3000** – die App ist bereit.
+**http://localhost:3000** – die App ist bereit.
 
 ## Nützliche Adressen
 
