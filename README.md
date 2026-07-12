@@ -2,6 +2,8 @@
 
 OutfitBuddy ist eine einfache Web-App zum Verwalten von Outfits. Man kann Kleidungsstücke benennen, kategorisieren und festhalten, wann man sie zuletzt getragen hat. Die App wurde mit Java und Spring Boot gebaut und folgt einer echten verteilten Architektur mit zwei separaten Java-Prozessen.
 
+**App starten und aufrufen:** http://localhost:3000
+
 ## Was kann die App?
 
 - **Outfits anlegen:** Name, Kategorie und Datum speichern
