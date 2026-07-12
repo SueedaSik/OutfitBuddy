@@ -4,7 +4,6 @@ Hier zeige ich wie das Projekt entstanden ist, von der ersten Datei bis zur fert
 
 <br>
 
-##
 
 ## Schritt 1: Projektstruktur mit Claude Code erstellt
 
@@ -77,7 +76,7 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 <br>
 <br>
-##
+
 
 ## Schritt 2: Backend Spring Boot REST-API
 
@@ -123,7 +122,7 @@ Als Nächstes habe ich das Backend gebaut, also den Teil der im Hintergrund läu
 
 <br>
 
-##
+
 
 ## Schritt 3: Frontend als separater Java-Prozess für verteilte Architektur
 
@@ -217,7 +216,7 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 <br>
 <br>
 
-##
+
 
 
 
@@ -264,7 +263,6 @@ Die App sollte nicht nur funktionieren, sondern auch gut aussehen. Ich habe mich
 <br>
 <br>
 
-##
 
 
 
