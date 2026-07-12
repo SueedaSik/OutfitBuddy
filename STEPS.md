@@ -16,25 +16,37 @@ Am Anfang stand die Frage: Wie baue ich das Projekt am besten auf? Ich habe mit 
 
 Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
+**Claude Code wird installiert:**
+
 <img width="1348" height="434" alt="Bild 09 07 26 um 19 04" src="https://github.com/user-attachments/assets/2724d25e-c684-4569-8b12-784516dde3ca" />
 
 <br>
+
+**Claude Code erstellt alle Projektdateien:**
 
 <img width="2972" height="572" alt="Bild 09 07 26 um 19 14" src="https://github.com/user-attachments/assets/6d5b8b9a-21af-4507-bbc7-c75ab328d8ea" />
 
 <br>
 
+**Claude Code gestartet - eingeloggt als suedasik05@gmail.com:**
+
 <img width="2972" height="444" alt="Bild 09 07 26 um 19 22" src="https://github.com/user-attachments/assets/0379551d-b956-4a3d-ab95-1bb81d59c7ad" />
 
 <br>
+
+**Maven und Java werden geprüft:**
 
 <img width="2474" height="1536" alt="Bild 09 07 26 um 19 23" src="https://github.com/user-attachments/assets/6935f980-b2dd-4654-bbf3-acb08264a1d4" />
 
 <br>
 
+**Kilo Code erklärt die Projektstruktur (Backend):**
+
 <img width="1722" height="852" alt="Bild 11 07 26 um 17 28" src="https://github.com/user-attachments/assets/85d67bec-3c8b-4e61-a9de-3c00e9e9065b" />
 
 <br>
+
+**Kilo Code erklärt die Projektstruktur (Fronted + Konfiguration):**
 
 <img width="1722" height="582" alt="Bild 11 07 26 um 17 28 (1)" src="https://github.com/user-attachments/assets/a85f00ce-526a-4751-87b3-24a11b249834" />
 
@@ -54,14 +66,19 @@ Als Nächstes habe ich das Backend gebaut, also den Teil der im Hintergrund läu
 - Als Datenbank habe ich H2 gewählt, weil sie einfach zu nutzen ist.
 - In `data.sql` drei Beispiel-Outfits hinterlegt, damit direkt etwas zu sehen ist, wenn die App startet.
 
+**Tests laufen erfolgreich - Projekt kompiliert sauber:**
+
 <img width="2900" height="288" alt="Bild 09 07 26 um 19 26" src="https://github.com/user-attachments/assets/d3fdc69f-e104-4e8e-ac23-9ef712fd67d6" />
 
-
 <br>
+
+**Kilo Code erklärt den OutfitController (Methoden Teil 1):**
 
 <img width="1722" height="674" alt="Bild 11 07 26 um 17 29" src="https://github.com/user-attachments/assets/62819786-57b5-40fc-833e-217e4f28e7c7" />
 
 <br>
+
+**Kilo Code erklärt den OutfitController (Methoden Teil 2):**
 
 <img width="1722" height="750" alt="Bild 11 07 26 um 17 30" src="https://github.com/user-attachments/assets/20743855-79c6-4ad3-8ce2-c6e17eb8cfd8" />
 
@@ -78,33 +95,49 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 - Im `OutfitController` CORS aktiviert, damit der Browser Anfragen vom Frontend-Port 3000 zum Backend-Port 8080 zulässt.
 - Das Ergebnis: Zwei Prozesse die über HTTP miteinander reden. In der Praxis laufen sie sogar auf verschiedenen Servern.
 
+**App startet erfolgreich auf Port8080:**
+
 <img width="1616" height="200" alt="Bild 09 07 26 um 19 28" src="https://github.com/user-attachments/assets/72f2f984-e5af-4efc-a876-b407ba246f43" />
 
 <br>
+
+**REST-API funktioniert - alle Outfits werden abgerufen:**
 
 <img width="1678" height="280" alt="Bild 09 07 26 um 19 30" src="https://github.com/user-attachments/assets/cadb934f-afb9-4ff1-8aa8-f6c0a2abf455" />
 
 <br>
 
+**Alle CRUD-Operationen funktionieren korrekt:**
+
 <img width="1678" height="58" alt="Bild 09 07 26 um 19 30" src="https://github.com/user-attachments/assets/e53ff612-6064-4972-9f57-773413e71cc3" />
 
 <br>
+
+**Claude Code Zusammenfassung des fertigen Projekts:**
 
 <img width="1924" height="422" alt="Bild 09 07 26 um 19 32" src="https://github.com/user-attachments/assets/3bb3419a-e233-400c-bc02-18eb6e522907" />
 
 <br>
 
+**Kilo Code baut die verteilte Architektur um (Teil 1):**
+
 <img width="1722" height="850" alt="Bild 11 07 26 um 17 49" src="https://github.com/user-attachments/assets/92ec5588-6e3e-4a79-9b0c-4f0d913f6069" />
 
 <br>
+
+**Kilo Code baut die verteilte Architektur um (Teil 2 - Startbefehle):**
 
 <img width="1722" height="690" alt="Bild 11 07 26 um 17 50" src="https://github.com/user-attachments/assets/7f3ca368-1e38-4739-a066-a3b84286787b" />
 
 <br>
 
+**Erste Version der App (lila Design):**
+
 <img width="1722" height="1590" alt="Bild 11 07 26 um 17 50" src="https://github.com/user-attachments/assets/a5603844-d0eb-41d0-9982-72cef8be4dfa" />
 
 <br>
+
+**Finale Version der App (salbeigrünes Design):**
 
 <img width="1722" height="1544" alt="Bild 11 07 26 um 18 00" src="https://github.com/user-attachments/assets/2a93ad56-5ce2-47f0-8efe-60b8a2aed2e0" />
 
@@ -123,13 +156,19 @@ Die App sollte nicht nur funktionieren, sondern auch gut aussehen. Ich habe mich
 - Kleine Details verbessert: sanfte Hover-Effekte, ein dezenter Fokus-Rahmen bei Eingabefeldern und ein zurückhaltender Löschen-Button statt einem knalligen Rot
 - Die Dateien sauber getrennt: `index.html` für den Aufbau, `style.css` für das Aussehen
 
+**Kilo Code passt das Farbschema an:**
+
 <img width="1722" height="388" alt="Bild 11 07 26 um 17 59" src="https://github.com/user-attachments/assets/1b60c77d-bdfc-4ee2-a19a-026f5c596760" />
 
 <br>
 
+**Kilo Code verbessert die Gestaltung:**
+
 <img width="1722" height="412" alt="Bild 11 07 26 um 17 59 (1)" src="https://github.com/user-attachments/assets/d95b3f7d-cc90-4383-a19a-f99345997ee3" />
 
 <br>
+
+**Finale App mit Salbeigrün-Design:**
 
 <img width="1722" height="1544" alt="Bild 11 07 26 um 18 00" src="https://github.com/user-attachments/assets/17210e8a-5982-4ed0-bf10-4132219ada4c" />
 
@@ -146,20 +185,30 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 
 <br>
 
+**Git Repository wird initialisiert:**
+
 <img width="1924" height="428" alt="Bild 09 07 26 um 19 34" src="https://github.com/user-attachments/assets/b26c8ba1-5a13-4ff2-8a45-a5e8ce1eaf4d" />
 
 <br>
+
+**Erster Commit mit 18 Dateien:**
 
 <img width="1808" height="266" alt="Bild 09 07 26 um 19 35" src="https://github.com/user-attachments/assets/f55c8d36-dc20-4655-a833-3cda59058844" />
 
 <br>
 
+**GitHub Login erfolgreich:**
+
 <img width="750" height="178" alt="Bild 09 07 26 um 19 42" src="https://github.com/user-attachments/assets/68e41f66-44d6-4328-925a-1761043228c8" />
 
 <br>
 
+**GitHub Repository erstellt und Code gepusht:**
+
 <img width="1438" height="392" alt="Bild 09 07 26 um 19 43" src="https://github.com/user-attachments/assets/f82ec1e3-edec-4aa3-81bd-d87dbc1e9c72" />
 
 <br>
+
+**Kilo Code erstellt und pusht die STEPS.md:**
 
 <img width="1654" height="100" alt="Bild 11 07 26 um 18 18" src="https://github.com/user-attachments/assets/b957c059-e13b-48d9-beb2-a2201c1b874a" />
