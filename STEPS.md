@@ -32,11 +32,13 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 
 
+
 **Claude Code gestartet - eingeloggt als suedasik05@gmail.com:**
 
 <img width="2972" height="444" alt="Bild 09 07 26 um 19 22" src="https://github.com/user-attachments/assets/0379551d-b956-4a3d-ab95-1bb81d59c7ad" />
 
 <br>
+
 
 
 
@@ -48,11 +50,13 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 
 
+
 **Kilo Code erklärt die Projektstruktur (Backend):**
 
 <img width="1722" height="852" alt="Bild 11 07 26 um 17 28" src="https://github.com/user-attachments/assets/85d67bec-3c8b-4e61-a9de-3c00e9e9065b" />
 
 <br>
+
 
 
 
@@ -86,11 +90,13 @@ Als Nächstes habe ich das Backend gebaut, also den Teil der im Hintergrund läu
 
 
 
+
 **Kilo Code erklärt den OutfitController (Methoden Teil 1):**
 
 <img width="1722" height="674" alt="Bild 11 07 26 um 17 29" src="https://github.com/user-attachments/assets/62819786-57b5-40fc-833e-217e4f28e7c7" />
 
 <br>
+
 
 
 
@@ -120,11 +126,13 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 
 
+
 **REST-API funktioniert - alle Outfits werden abgerufen:**
 
 <img width="1678" height="280" alt="Bild 09 07 26 um 19 30" src="https://github.com/user-attachments/assets/cadb934f-afb9-4ff1-8aa8-f6c0a2abf455" />
 
 <br>
+
 
 
 
@@ -136,11 +144,13 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 
 
+
 **Claude Code Zusammenfassung des fertigen Projekts:**
 
 <img width="1924" height="422" alt="Bild 09 07 26 um 19 32" src="https://github.com/user-attachments/assets/3bb3419a-e233-400c-bc02-18eb6e522907" />
 
 <br>
+
 
 
 
@@ -152,11 +162,13 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 
 
+
 **Kilo Code baut die verteilte Architektur um (Teil 2 - Startbefehle):**
 
 <img width="1722" height="690" alt="Bild 11 07 26 um 17 50" src="https://github.com/user-attachments/assets/7f3ca368-1e38-4739-a066-a3b84286787b" />
 
 <br>
+
 
 
 
@@ -168,11 +180,13 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 
 
+
 **Finale Version der App (salbeigrünes Design):**
 
 <img width="1722" height="1544" alt="Bild 11 07 26 um 18 00" src="https://github.com/user-attachments/assets/2a93ad56-5ce2-47f0-8efe-60b8a2aed2e0" />
 
 <br>
+
 
 
 
@@ -197,6 +211,7 @@ Die App sollte nicht nur funktionieren, sondern auch gut aussehen. Ich habe mich
 
 
 
+
 **Kilo Code verbessert die Gestaltung:**
 
 <img width="1722" height="412" alt="Bild 11 07 26 um 17 59 (1)" src="https://github.com/user-attachments/assets/d95b3f7d-cc90-4383-a19a-f99345997ee3" />
@@ -205,11 +220,13 @@ Die App sollte nicht nur funktionieren, sondern auch gut aussehen. Ich habe mich
 
 
 
+
 **Finale App mit Salbeigrün-Design:**
 
 <img width="1722" height="1544" alt="Bild 11 07 26 um 18 00" src="https://github.com/user-attachments/assets/17210e8a-5982-4ed0-bf10-4132219ada4c" />
 
 <br>
+
 
 
 
@@ -232,11 +249,13 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 
 
 
+
 **Erster Commit mit 18 Dateien:**
 
 <img width="1808" height="266" alt="Bild 09 07 26 um 19 35" src="https://github.com/user-attachments/assets/f55c8d36-dc20-4655-a833-3cda59058844" />
 
 <br>
+
 
 
 
@@ -248,11 +267,13 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 
 
 
+
 **GitHub Repository erstellt und Code gepusht:**
 
 <img width="1438" height="392" alt="Bild 09 07 26 um 19 43" src="https://github.com/user-attachments/assets/f82ec1e3-edec-4aa3-81bd-d87dbc1e9c72" />
 
 <br>
+
 
 
 
