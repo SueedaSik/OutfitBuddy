@@ -22,11 +22,15 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 <br>
 
+
+
 **Claude Code erstellt alle Projektdateien:**
 
 <img width="2972" height="572" alt="Bild 09 07 26 um 19 14" src="https://github.com/user-attachments/assets/6d5b8b9a-21af-4507-bbc7-c75ab328d8ea" />
 
 <br>
+
+
 
 **Claude Code gestartet - eingeloggt als suedasik05@gmail.com:**
 
@@ -34,11 +38,15 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 <br>
 
+
+
 **Maven und Java werden geprüft:**
 
 <img width="2474" height="1536" alt="Bild 09 07 26 um 19 23" src="https://github.com/user-attachments/assets/6935f980-b2dd-4654-bbf3-acb08264a1d4" />
 
 <br>
+
+
 
 **Kilo Code erklärt die Projektstruktur (Backend):**
 
@@ -46,9 +54,13 @@ Damit war das Fundament fertig und das Projekt ließ sich bereits starten.
 
 <br>
 
+
+
 **Kilo Code erklärt die Projektstruktur (Fronted + Konfiguration):**
 
 <img width="1722" height="582" alt="Bild 11 07 26 um 17 28 (1)" src="https://github.com/user-attachments/assets/a85f00ce-526a-4751-87b3-24a11b249834" />
+
+
 
 ## Schritt 2: Backend Spring Boot REST-API
 
@@ -72,15 +84,20 @@ Als Nächstes habe ich das Backend gebaut, also den Teil der im Hintergrund läu
 
 <br>
 
+
+
 **Kilo Code erklärt den OutfitController (Methoden Teil 1):**
 
 <img width="1722" height="674" alt="Bild 11 07 26 um 17 29" src="https://github.com/user-attachments/assets/62819786-57b5-40fc-833e-217e4f28e7c7" />
 
 <br>
 
+
+
 **Kilo Code erklärt den OutfitController (Methoden Teil 2):**
 
 <img width="1722" height="750" alt="Bild 11 07 26 um 17 30" src="https://github.com/user-attachments/assets/20743855-79c6-4ad3-8ce2-c6e17eb8cfd8" />
+
 
 
 ## Schritt 3: Frontend als separater Java-Prozess für verteilte Architektur
@@ -101,11 +118,15 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 
+
+
 **REST-API funktioniert - alle Outfits werden abgerufen:**
 
 <img width="1678" height="280" alt="Bild 09 07 26 um 19 30" src="https://github.com/user-attachments/assets/cadb934f-afb9-4ff1-8aa8-f6c0a2abf455" />
 
 <br>
+
+
 
 **Alle CRUD-Operationen funktionieren korrekt:**
 
@@ -113,11 +134,15 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 
+
+
 **Claude Code Zusammenfassung des fertigen Projekts:**
 
 <img width="1924" height="422" alt="Bild 09 07 26 um 19 32" src="https://github.com/user-attachments/assets/3bb3419a-e233-400c-bc02-18eb6e522907" />
 
 <br>
+
+
 
 **Kilo Code baut die verteilte Architektur um (Teil 1):**
 
@@ -125,11 +150,15 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 
+
+
 **Kilo Code baut die verteilte Architektur um (Teil 2 - Startbefehle):**
 
 <img width="1722" height="690" alt="Bild 11 07 26 um 17 50" src="https://github.com/user-attachments/assets/7f3ca368-1e38-4739-a066-a3b84286787b" />
 
 <br>
+
+
 
 **Erste Version der App (lila Design):**
 
@@ -137,11 +166,15 @@ Bisher lief alles in einem Prozess. Ich wollte ausprobieren wie es sich anfühlt
 
 <br>
 
+
+
 **Finale Version der App (salbeigrünes Design):**
 
 <img width="1722" height="1544" alt="Bild 11 07 26 um 18 00" src="https://github.com/user-attachments/assets/2a93ad56-5ce2-47f0-8efe-60b8a2aed2e0" />
 
 <br>
+
+
 
 ## Schritt 4: Design angepasst mit Kilo Code
 
@@ -162,17 +195,23 @@ Die App sollte nicht nur funktionieren, sondern auch gut aussehen. Ich habe mich
 
 <br>
 
+
+
 **Kilo Code verbessert die Gestaltung:**
 
 <img width="1722" height="412" alt="Bild 11 07 26 um 17 59 (1)" src="https://github.com/user-attachments/assets/d95b3f7d-cc90-4383-a19a-f99345997ee3" />
 
 <br>
 
+
+
 **Finale App mit Salbeigrün-Design:**
 
 <img width="1722" height="1544" alt="Bild 11 07 26 um 18 00" src="https://github.com/user-attachments/assets/17210e8a-5982-4ed0-bf10-4132219ada4c" />
 
 <br>
+
+
 
 ## Schritt 5: Auf GitHub gepusht
 
@@ -191,11 +230,15 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 
 <br>
 
+
+
 **Erster Commit mit 18 Dateien:**
 
 <img width="1808" height="266" alt="Bild 09 07 26 um 19 35" src="https://github.com/user-attachments/assets/f55c8d36-dc20-4655-a833-3cda59058844" />
 
 <br>
+
+
 
 **GitHub Login erfolgreich:**
 
@@ -203,11 +246,15 @@ Zum Schluss habe ich alles versioniert und veröffentlicht:
 
 <br>
 
+
+
 **GitHub Repository erstellt und Code gepusht:**
 
 <img width="1438" height="392" alt="Bild 09 07 26 um 19 43" src="https://github.com/user-attachments/assets/f82ec1e3-edec-4aa3-81bd-d87dbc1e9c72" />
 
 <br>
+
+
 
 **Kilo Code erstellt und pusht die STEPS.md:**
 
